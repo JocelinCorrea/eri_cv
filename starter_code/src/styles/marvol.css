@@ -1,0 +1,268 @@
+/*DESKTOP*/
+
+#marvol{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 188px;
+    position: static;
+    width: 875px;
+    height: 588px;
+    left: 0px;
+    top: 1379.52px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: -210px 0px;
+ }
+
+ #textm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 449px;
+    height: 221px;
+    left: 128px;
+    top: 160.5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 54px;
+ }
+
+ #titulom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 8px;
+    position: static;
+    width: 148px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: var(--darkblue);
+    box-shadow: -4px 4px 0px white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 55px;
+    color: #FFFFFF;
+ }
+
+ #seis{
+    position: static;
+    width: 440px;
+    height: 78px;
+    left: 0px;
+    top: 80px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: var(--darkblue);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+ }
+
+ #buttonsm{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 0px 0px;
+    position: static;
+    width: 331px;
+    height: 57px;
+    left: 0px;
+    top: 174px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px -16px;
+ }
+
+ #bm1{
+    justify-content: center;
+    align-items: center;
+    padding: 0px; 
+    position: static;
+    width: 168px;
+    height: 49px;
+    left: 0px;
+    top: 8px;
+    background: var(--darkblue);
+    border: 2px solid var(--darkblue);
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    color: white;
+ }
+
+ #bm1:hover{
+    background-color:black;
+}
+
+ #bm2{
+    align-items: flex-start;
+    padding: 13px 24px;
+    position: static;
+    width: 168px;
+    height: 49px;
+    left: 0px;
+    top: 8px;
+    border: 2px solid var(--darkblue);
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    color: var(--darkblue);
+    background-color: transparent;
+ }
+
+ #bm2:hover{
+    background-color:black;
+}
+
+#immarv{
+    display: flex;
+    width: 600px;
+    height: 302px;
+    top:200px;
+    margin: 0px 54px -70px;
+}
+
+ #marvolcom{
+    position: static;
+    width: 400px;
+    height: 282px;
+    left: 601px;
+    top: 80px; 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 64px;
+ }
+
+ /*PHONE*/
+@media screen and (max-width: 600px){
+
+    #marvol{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute;
+        padding: 40px 16px;
+        width: 360px;
+        height: 411px;
+        left: 0px;
+        top: 3087px;
+        margin: 200px 0px;
+     }
+    
+     #textm{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 16px;
+        position: static;
+        width: 360px;
+        height: 411px;
+        left: 0px;
+        top: 1357px;
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        margin: 0px 0px;
+     }
+    
+     #titulom{
+        width: 120px;
+        height:47px;
+        left: 16px;
+        top: 40px;
+        font-size: 24px;
+        line-height: 39px;
+     }
+    
+     #seis{
+        position: static;
+        width: 328px;
+        height: 130px;
+        left: 16px;
+        top: 103px;
+     }
+    
+     #buttonsm{
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px 30px 0px;
+      position: static;
+      width: 328px;
+      height: 220px;
+      left: 0px;
+      top: 0px;
+   }
+  
+   #bm1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 350px;
+      height: 49px;
+      left: 0px;
+      top: 0px;
+      order: 1;
+      margin: 0px 16px;
+   }
+  
+   #bm2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      width: 350px;
+      margin: 16px 16px;
+   }
+    
+     #marvolcom{
+        position: absolute;
+        width: 350px;
+        height: 250px;
+        left: 0px;
+        top: -350px;
+     }
+
+}

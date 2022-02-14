@@ -1,0 +1,270 @@
+/*DESKTOP*/
+
+#about-me{
+    display: flex;
+    flex-direction: row;
+    height: 560px;
+}
+
+#datos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 543px;
+    height: 352px;
+    left: 128px;
+    top: 151px;
+
+    font-family: var(--fontBase);
+    font-style: normal;
+    color: var(--darkblue);
+    flex: none;
+    flex-grow: 0;
+}
+
+#hi{
+    position: static;
+    width: 449px;
+    height: 39px;
+    font-weight: bold;
+    left: 0px;
+    top: 0px;
+    font-size: 24px;
+    line-height: 39px;
+    order: 0;
+    margin: 0px 0px;
+}
+
+#name{
+    position: static;
+    width: 543px;
+    height: 96px;
+    font-weight: bold;
+    left: 0px;
+    top: 39px;
+    font-size: 59px;
+    line-height: 95px;
+    letter-spacing: -0.005em;
+    order: 1;
+    margin: 0px 0px;
+}
+
+#description{
+    position: static;
+    width: 449px;
+    height: 52px;
+    left: 0px;
+    top: 151px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    order: 1;
+    margin: 16px 0px;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 224px;
+    height: 44px;
+    left: 0px;
+    top: 219px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.butsocial{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    position: static;
+    width: 44px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 2px solid var(--darkblue);
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.butsocial:hover{
+    background-color: black;
+ }
+
+#butcurri{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 0px 0px;
+    position: static;
+    width: 255px;
+    height: 73px;
+    left: 0px;
+    top: 279px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+#butcurriculum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 255px;
+    height: 49px;
+    left: 0px;
+    top: 24px;
+    background: var(--darkblue);
+    border: 2px solid #310A90;
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    color: white;
+}
+
+#butcurriculum:hover{
+    background-color:black;
+}
+
+#imagyo{
+    position: absolute;
+    width: 374px;
+    height: 400px;
+    left: 786px;
+    top: 150px;
+    border-radius: 15px;
+}
+
+
+/*PHONE*/
+@media screen and (max-width: 600px){
+
+#about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 328px;
+    height: 784.62px;
+    left: 16px;
+    top: 77px;
+}
+
+#imagyo{
+    position: absolute;
+    width: 305.34px;
+    height: 321.87px;
+    left: 85px;
+    top: 8.53px;
+}
+
+#datos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 450px;
+    height: 784.62px;
+    left: 16px;
+    top: 385px;
+}
+
+#hi{
+    position: static;
+    width: 328px;
+    flex: none;
+    align-self: stretch;
+    
+}
+
+
+#name{
+    position: static;
+    width: 328px;
+    height: auto;
+    font-size: 48px;
+    line-height: 78px;
+    flex: none;
+    align-self: stretch;
+  
+}
+
+#description{
+    position: static;
+    width: 450px;
+    height: auto;
+    flex: none;
+    top: 0%;
+    align-self: stretch;
+    order: 2;
+    margin: 16px 0px;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 0px 24px;
+    height: 68px;
+    order: 3;
+}
+
+#butcurri{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px;
+    position: static;
+    width: 450px;
+    height: 73px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: -30px 0px;
+}
+
+#butcurriculum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+}

@@ -1,0 +1,265 @@
+/*DESKTOP*/
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 500px;
+    position: static;
+    width: 340px;
+    height: 749px;
+    left: 4411px;
+    top: 14px;
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+    margin: -200px 0px;
+}
+
+#habl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    position: static;
+    width: 543px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    background: #310A90;
+    box-shadow: -4px 4px 0px #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+}
+
+#info{
+    position: static;
+    width: 543px;
+    height: 52px;
+    left: 0px;
+    top: 80px;
+    padding: 10px 0px 0px -5px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: var(--darkblue);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.colocar_nombre{
+    position: static;
+    width: 251px;
+    left: 16px;
+    top: 0px;
+    padding: 10px;
+    bottom: 0px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: var(--darkblue);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -2px 0px;
+}
+
+#nombre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 16px;
+    position: static;
+    width: 560px;
+    height: 45px;
+    left: 0px;
+    top: 34px;
+    background: #FFFFFF;
+    border: 1px solid #858C94;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: -10px 0px;
+}
+
+#email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 16px;
+    position: static;
+    width: 560px;
+    height: 45px;
+    left: 0px;
+    top: 34px;
+    background: #FFFFFF;
+    border: 1px solid #858C94;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: -10px 0px;
+}
+
+#mensaje{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12px 16px;
+    position: static;
+    width: 560px;
+    height: 134px;
+    left: 0px;
+    top: 34px;
+    background: white;
+    border: 1px solid #858C94;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: -10px 0px;
+}
+
+#envmen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 543px;
+    height: 49px;
+    left: 0px;
+    top: 384px;
+    background: var(--darkblue);
+    border: 2px solid var(--darkblue);
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 36px 0px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    color: white;
+}
+
+/*PHONE*/
+@media screen and (max-width: 600px){
+
+    #formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute;
+        padding:40px 16px;
+        width: 360px;
+        height: 710px;
+        left: 0px;
+        flex: none;
+        top: 5945.5px;
+        order: 8;
+        margin: 0px 0px;
+    }
+    
+    #habl{
+        width: 148px;
+        height: 47px;
+        left: 16px;
+        top: 40px;
+        font-size: 24px;
+        line-height: 39px;
+        text-align: center;
+        margin: 0px 18px;
+    }
+    
+    #info{
+        text-align: left;
+        width: 380px;
+        height: 78px;
+        left: 16px;
+        top: 103px;
+        margin: 20px 18px;
+    }
+    
+    .colocar_nombre{
+        position: static;
+        width: 200px;
+        margin: 0px 22px;
+    }
+    
+    #nombre{
+        padding: 12px 16px;
+        width: 328px;
+        height: 50px;
+        margin: -10px 18px;
+    }
+    
+    #email{
+        padding: 12px 16px;
+        width: 328px;
+        height: 50px;
+        margin: -10px 18px;
+    }
+    
+    #mensaje{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 12px 16px;
+        position: static;
+        width: 328px;
+        height: 134px;
+        left: 0px;
+        top: 34px;
+        margin: -10px 18px;
+    }
+    
+    #envmen{
+        width: 350px;
+        padding: 0px 30px 0px;
+        margin: 36px 50px;
+    }
+
+}

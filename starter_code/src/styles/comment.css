@@ -1,0 +1,144 @@
+ /*DESKTOP*/
+
+#coment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:100px 233px;
+    position: static;
+    width: 855px;
+    height: 508px;
+    left: 0px;
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+#uno{
+    position: static;
+    width: 900px;
+    height: 111px;
+    left: 233px;
+    top: 200px;
+    font-family: var(--Oxygen);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 55px;
+    text-align: center;
+    color: var(--darkblue);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+#unoc{
+    display: none;
+}
+
+#dos{
+    position: static;
+    width: 900px;
+    height: 39px;
+    left: 233px;
+    top: 335px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    color: var(--darkblue);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+#flecha{
+    position: static;
+    justify-content: center;
+    align-items: center;
+    width: 80.52px;
+    height: 80.52px;
+    left: 642.74px;
+    top: 398px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+
+/*PHONE*/
+@media screen and (max-width: 600px){
+
+    #coment{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 16px;    
+        position: absolute;
+        width: 450px;
+        height: 481px;
+        left: 0px;
+        top: 912px;
+        border-radius: 16px;
+    }
+    
+
+    #uno{
+        display: none;
+    }
+
+    #unoc{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        position: static;
+        width: 450px;
+        height: 195px;
+        left: 16px;
+        top: 40px;
+        font-family: var(--fontBase);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 39px;
+        text-align: center;
+        letter-spacing: 0.005em;
+        color: var(--darkblue);
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 24px 0px;
+    }
+
+    #dos{
+        position: static;
+        width: 450px;
+        height: 78px;
+        left: 16px;
+        top: 259px;
+    }
+
+    #flecha{
+    display: flex;
+    position: static;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    left: 140px;
+    top: 361px;
+    }
+
+}

@@ -1,0 +1,136 @@
+
+ /*DESKTOP*/
+
+#sections{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 303px;
+    height: 23px;
+    left: 325px;
+    top: 45px;
+
+    font-family: var(--fontBase);
+}
+
+.botonsech{
+    position: static;
+    width: auto;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+    background-color: transparent;
+    border-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 1.25px;
+    color: var(--darkblue);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+}
+
+.botonsech:hover{
+    color:black;
+}
+
+.botonsec{
+    position: static;
+    width: auto;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+    background-color: transparent;
+    border-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 1.25px;
+    color: white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+}
+
+.botonsec:hover{
+    color:black;
+}
+
+#logo{
+    position: absolute;
+    width: auto;
+    height: 39px;
+    left: 128px;
+    top: 37px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 39px;
+    color: var(--darkblue);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#logo:hover{
+    color:black;
+}
+
+#curriculum{
+     display: none;
+}
+
+ /*PHONE*/
+@media screen and (max-width: 600px){
+    #sections{
+        display: none;
+    }
+
+    #logo{
+        position: static;
+        width: 69px;
+        height: 39px;
+        left: 16px;
+        top: 21px;
+    }
+
+    #curriculum{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        position: static;
+        width: 153px;
+        height: 49px;
+        left: 193px;
+        background: var(--darkblue);
+        border: 2px solid var(--darkblue);
+        box-sizing: border-box;
+        border-radius: 4px;
+        order: 1;
+        flex-grow: 0;
+        margin: -30px 298px;
+        font-family: var(--fontBase);
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 1.25px;
+        color: #FFFFFF;
+   }
+
+   #curriculum:hover{
+    background-color:black;
+}
+    
+    
+}

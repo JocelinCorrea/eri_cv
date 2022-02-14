@@ -1,0 +1,243 @@
+ /*DESKTOP*/
+
+ #miproyecto{
+    display: flex;
+    flex-direction: row;
+    padding: 120px 0px 80px 185px;
+    position: static;
+    width: 875px;
+    height: 370px;
+    left: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: -230px -60px;
+ }
+
+ #textmp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 449px;
+    height: 221px;
+    left: 128px;
+    top: 160.5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+ }
+
+ #titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 8px;
+    position: static;
+    width: 288px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    background: var(--darkblue);
+    box-shadow: -4px 4px 0px white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 55px;
+    color: #FFFFFF;
+ }
+
+ #tres{
+    position: static;
+    width: 449px;
+    height: 78px;
+    left: 0px;
+    top: 80px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: var(--darkblue);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+ }
+
+ #buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 0px 0px;
+    position: static;
+    width: 331px;
+    height: 57px;
+    left: 0px;
+    top: 174px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px -16px;
+ }
+
+ #bmp1{
+    justify-content: center;
+    align-items: center;
+    padding: 0px; 
+    position: static;
+    width: 168px;
+    height: 49px;
+    left: 0px;
+    top: 8px;
+    background: var(--darkblue);
+    border: 2px solid var(--darkblue);
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    color: white;
+ }
+
+ #bmp1:hover{
+    background-color:black;
+}
+
+ #bmp2{
+    align-items: flex-start;
+    padding: 13px 24px;
+    position: static;
+    width: 168px;
+    height: 49px;
+    left: 0px;
+    top: 8px;
+    border: 2px solid var(--darkblue);
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    color: var(--darkblue);
+    background-color: transparent;
+ }
+
+ #bmp2:hover{
+    background-color:black;
+}
+
+ #computer{
+    position: static;
+    width: 500px;
+    height: 292px;
+    left: 601px;
+    top: 80px; 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 64px;
+ }
+
+ /*PHONE*/
+@media screen and (max-width: 600px){
+
+    #miproyecto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute;
+        padding: 40px 16px;
+        width: 360px;
+        height: 385px;
+        left: 0px;
+        top: 1536px;
+        margin: 100px -6px;
+     }
+
+    
+     #titulo{
+        width: 200px;
+        height: 45px;
+        left: 16px;
+        top: 40px;
+        font-size: 20px;
+        line-height: 39px;
+     }
+    
+     #tres{
+        position: static;
+        width: 328px;
+        height: auto;
+        left: 16px;
+        top: 103px;
+        align-self: stretch;
+     }
+    
+     #buttons{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 30px 0px;
+        position: static;
+        width: 328px;
+        height: 220px;
+        left: 0px;
+        top: 0px;
+     }
+    
+     #bmp1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 49px;
+        left: 0px;
+        top: 0px;
+        order: 1;
+        margin: 0px 16px;
+     }
+    
+     #bmp2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 350px;
+        margin: 16px 16px;
+     }
+    
+     #computer{
+        position: absolute;
+        width: 327px;
+        height: 197px;
+        left: 16.34px;
+        top: -150px;
+     }
+
+}

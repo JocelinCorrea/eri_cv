@@ -1,0 +1,32 @@
+@import url(./about-me.css);
+@import url(./sections.css);
+@import url(./comment.css);
+@import url(./miproyecto.css);
+@import url(./card1.css);
+@import url(./marvol.css);
+@import url(./card2.css);
+@import url(./netnet.css);
+@import url(./card3.css);
+@import url(./formulario.css);
+@import url(./footer.css);
+
+
+:root{
+    --fontBase: 'Poppins', sans-serif; 
+    --darkblue: #310A90;
+    --fontOxygen: 'Oxygen';
+
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontBase);
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    
+}

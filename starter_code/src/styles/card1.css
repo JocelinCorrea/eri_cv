@@ -1,0 +1,128 @@
+ /*DESKTOP*/
+
+#card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 220px;
+    position: static;
+    width: 875px;
+    height: 549px;
+    left: 0px;
+    top: 1230px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 100px 0px;
+}
+
+#coment1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    position: static;
+    width: 875px;
+    height: 279px;
+    left: 117px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    box-shadow: 0px 10px 5px rgb(0,0,0,0.3);
+}
+
+#cuatro{
+    position: static;
+    width: 875px;
+    height: 166px;
+    left: 80px;
+    top: 80px;
+    font-family: var(--Oxygen);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 55px;
+    text-align: center;
+    color: var(--darkblue);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+#cinco{
+    position: static;
+    width: 875px;
+    height: 39px;
+    left: 80px;
+    top: 270px;
+    font-family: var(--fontBase);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 39px;  
+    text-align: center;
+    color: var(--darkblue);
+    opacity: 0.5;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+ /*PHONE*/
+@media screen and (max-width: 600px){
+    #card1{
+        position: absolute;
+        padding: 40px 45px 80px;
+        width: 360px;
+        height: 681px;
+        top: 2000px;
+        order: 1;
+        margin: 170px 0px;
+    }
+    
+    #coment1{
+        padding: 24px;
+        position: static;
+        width: 328px;
+        height: 550px;
+        left: 16px;
+        top: 40px;
+        align-self: stretch;
+        margin: 0px 10px;
+        box-shadow: 0px 0px 5px rgb(0,0,0,0.3);
+    }
+    
+    #cuatro{
+        position: static;
+        width: 328px;
+        height: 420px;
+        left: 24px;
+        top: 128px;
+        font-size: 30px;
+        line-height: 55px;
+        text-align: center;
+    }
+    
+    #cinco{
+        position: static;
+        width: 328px;
+        height: 39px;
+        left: 28px;
+        top: 428px;
+        font-size: 12px;
+        line-height: 19px;  
+    }
+    
+}

@@ -1,16 +1,168 @@
 <!DOCTYPE html>
-<!-- Change lang propertie -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Change document title  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/main.css">
     <title>Document</title>
-    <!-- Here goes your styles -->
+    
 
 </head>
 <body>
+    <nav>
+        <div id="sections">
+            <button class="botonsech">HOLA</button>
+            <button class="botonsec">PROYECTOS</button>
+            <button class="botonsec">HABLEMOS</button>
+        </div>
+        <button id="logo">LOGO</button>
+        <button id="curriculum">CURRÍCULUM</button>
+    </nav>
+  
+
+    <section id="about-me">
+        <div id="datos">
+            <div >
+                <h3 id="hi">¡Hola a todos!</h3>
+                <h1 id="name">Soy Jocelin</h1>
+                <p id="description">Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+            </div>
+            <div id="social">
+                <button class="butsocial"><img src="./src/img/icon-phone.png" alt="phone"></button>
+                <button class="butsocial" style="padding: 11px"><img src="./src/img/mail.png" alt="mail"></button>
+                <button class="butsocial"><img src="./src/img/icon-instagram.png" alt="instagram"></button>
+                <button class="butsocial"><img src="./src/img/icon-twitter_squared.png" alt="twiter"></button>
+            </div>
+            <div id="butcurri">
+                <button id="butcurriculum">DESCARGAR CURRÍCULUM</button>
+            </div>
+        </div>
+        <div>
+            <img id="imagyo" src="./src/img/pp.jfif" alt="Yo">
+        </div>
+    </section>
+
+    <section id="coment">
+        <p id="uno">Participé en @GeneratioMx y realicé proyectos como a continuación veremos.</p>
+        <p id="unoc">A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
+        <p id="dos">Aquí hay algunos que me gustaría compartir.</p>
+        <img id="flecha"src="./src/img/arrow-down.svg" alt="flechaabajo">
+    </section>
+
+    <section id="miproyecto">
+        <div id="textmp">
+            <h3 id="titulo">mi_proyecto.com</h3>
+            <p id="tres">Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
+            <div id="buttons">
+                <button id="bmp1">VER PROYECTO</button>
+                <button id="bmp2">VER CÓDIGO</button>
+            </div>
+        </div>
+        <div>
+            <img id="computer"src="./src/img/devices.png" alt="computer">
+        </div>
+    </section>
+
+    <section id="card1">
+        <div id="coment1">
+            <p id="cuatro">"Jocelin ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
+            <p id="cinco">ERIKA FLORES / INSTRUCTOR GENERATION</p>
+        </div>      
+    </section>
+
+    <section id="marvol">
+        <div id="textm">
+            <h3 id="titulom">MARVOL</h3>
+            <p id="seis">Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
+            <div id="buttonsm">
+                <button id="bm1">VER PROYECTO</button>
+                <button id="bm2">VER CÓDIGO</button>
+            </div>
+        </div>
+        <div id="immarv">
+            <img id="marvolcom"src="./src/img/450_1000.png" alt="marvolcom">
+        </div>
+    </section>
+
+    <section id="card2">
+        <div id="coment2">
+            <p id="siete">"Jocelin ha sido una persona que demuestra sus habilidades y ha crecido mucho".</p>
+            <p id="ocho">ERIKA FLORES / INSTRUCTOR GENERATION</p>
+            <img id="persona" src="./src/img/417776.png" alt="persona">
+        </div>      
+    </section>
+
+    <section id="netnet">
+        <div id="textn">
+            <h3 id="titulon">NETNET</h3>
+            <p id="nueve">Películas y series ilimitadas y mucho más. Disfruta donde quieras. Cancela cuando quieras.</p>
+            <div id="buttonsn">
+                <button id="bn1">VER PROYECTO</button>
+                <button id="bn2">VER CÓDIGO</button>
+            </div>
+        </div>
+        <div id="imnet">
+            <img id="imnetnet"src="./src/img/PhotoRoom.png" alt="imnetnet">
+        </div>
+    </section>
+
+  
+    <section id="card3">
+        <div id="coment3">
+            <p id="diez">"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</p>
+            <p id="once">MARCO CORTEZ / NETNET</p>
+            <img id="personah" src="./src/img/180644.png" alt="personah">
+        </div>      
+    </section>
+
+    <section id="formulario">
+        <div>
+            <p id="habl">HABLEMOS</p>
+            <p id="info">Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
+            <p>
+                <label for="nombre" class="colocar_nombre">Nombre completo
+                  <span class="obligatorio">*</span>
+                </label>
+                <br>
+                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+            </p>
+            <p>
+                <label for="email" class="colocar_nombre">Correo electrónico
+                  <span class="obligatorio">*</span>
+                </label>
+                <br>
+                  <input type="text" name="introducir_email" id="email" required="obligatorio" placeholder="email@gmail.com">
+            </p>
+            <p>
+                <label for="message" class="colocar_nombre">Mensaje
+                  <span class="obligatorio">*</span>
+                </label>
+                <br>
+                  <input type="text" name="introducir_mensaje" id="mensaje" required="obligatorio" placeholder="Deja tu mensaje">
+            </p>
+
+            <button id="envmen">ENVIAR MENSAJE</button>
+            
+        </div>      
+    </section>
+
+    <section>
+        <p id="logoo">LOGO</p>
+        <p id="textoo">Hecho con 🖤 de JC. Copyright 2022 - Todos los derechos reservados.</p>
+        <div id="social1">
+            <button class="butsocial1"><img src="./src/img/icon-phone.png" alt="phone"></button>
+            <button class="butsocial1" style="padding: 11px"><img src="./src/img/mail.png" alt="mail"></button>
+            <button class="butsocial1"><img src="./src/img/icon-instagram.png" alt="instagram"></button>
+            <button class="butsocial1"><img src="./src/img/icon-twitter_squared.png" alt="twiter"></button>
+        </div>
+    </section>
     
 </body>
-</html>l
+</html>
